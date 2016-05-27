@@ -1,2 +1,2 @@
 # spectator
-Observable data structures for Python
+Simple observable data structures for Python, to facilitate databinding and other patterns.
