@@ -54,4 +54,5 @@ Remove the binding, modify the object's properties and then reestablish it later
     >>> conn.remove_observation('current_status', status_callback)
 
 ## TODO
-Add classes providing data added/updated/removed callbacks for list, dictionary and other sequence types.
+- Add classes providing data added/updated/removed callbacks for list, dictionary and other sequence types.
+- Add simple property-to-property mapping across objects without callbacks.
