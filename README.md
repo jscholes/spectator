@@ -4,6 +4,8 @@ Simple observable data structures for Python, to facilitate databinding and othe
 ## Example
 Currently only one class, spectator.structures.ObservableObject, is included.  This is a standard Python object offering one-way, callback-based data binding to single properties.
 
+Have a look at the basic sample below.  There's also an [example](https://github.com/jscholes/spectator/blob/master/examples/gui_observer.py) of using ObservableObject in a wxPython-based GUI.
+
     >>> from spectator.structures import ObservableObject
 
 First, create a subclass of ObservableObject for our model.
